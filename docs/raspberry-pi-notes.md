@@ -2,6 +2,8 @@
 
 > createDate: 2020-11-24
 
+[回到首页](./index.md)
+
 原先在路由器上安装clash，用来处理局域网内的流量，但是ac86u的性能还是不太适合做复杂的工作，经常需要重启路由器。折腾来折腾去，浪费时间和精力，所以买了树莓派4b，正好也可以用来安装docker，把电脑上的docker卸载掉。（查找资料后发现，docker-compose没有arm的官方支持，不管是第三方利用docker image，还是使用pip安装都不是我的菜，这一点对容器管理的便利程度很有影响）
 
 ### 安装 clash
@@ -19,3 +21,5 @@
 ### 安装 Samba 文件服务
 
 安装samba还是非常简单的，网上可以搜索到很多教程。使用`apt install samba samba-common-bin`，接着`vim /etc/samba/smb.conf`编辑配置文件，如果需要从windows10访问，那么需要在[global]字段里面加入`min protocol = SMB2`，或者在win10的程序面板添加smb1.0支持，因为永恒之蓝漏洞的问题，win10默认关闭了smb1.0的支持。然后`smbpasswd -a <user>`输入用户密码，运行`service smbd restart`重启samba服务，就大功告成了。
+
+[回到首页](./index.md)
