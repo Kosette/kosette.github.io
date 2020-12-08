@@ -7,3 +7,5 @@
 
 - [更换各种软件源](./change-repository-source.md)
   > 使用国内镜像源加速下载更新
+
+- [使用pezip加密归档文档](./using-peazip-encryption.md)

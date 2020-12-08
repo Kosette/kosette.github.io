@@ -6,7 +6,7 @@
 
 ### 更换debian/ubuntu的apt软件源
 
-编辑`/etc/apt/sources.list`文件，修改其中的地址为镜像地址，比如中科大的`mirrors.ustc.edu.cn`或者上海交大的`mirrors.sjtug,sjtu,edu,cn`等等，保存后执行`sudo apt update`更新缓存
+编辑`/etc/apt/sources.list`文件，修改其中的地址为镜像地址，比如中科大的`mirrors.ustc.edu.cn`或者上海交大的`mirrors.sjtug.sjtu.edu.cn`等等，保存后执行`sudo apt update`更新缓存
 
 ### 更换Homebrew源
 
