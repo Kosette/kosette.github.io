@@ -9,3 +9,5 @@
   > 使用国内镜像源加速下载更新
 
 - [使用pezip加密归档文档](./using-peazip-encryption.md)
+
+- [使用kodi查看emby内容](./use.kodi.for.emby.md)
