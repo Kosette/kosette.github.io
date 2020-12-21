@@ -11,3 +11,5 @@
 - [使用pezip加密归档文档](./using-peazip-encryption.md)
 
 - [使用kodi查看emby内容](./use.kodi.for.emby.md)
+
+- [创建右键菜单清理剪切板](./clear.clipboard.with.shell.command.md)
