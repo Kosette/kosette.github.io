@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>StarGazer</title>
+    <link>https://memo.baye.me/</link>
+    <description>Recent content on StarGazer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Kosette</copyright>
+    <lastBuildDate>Sat, 09 Dec 2023 05:35:36 +0800</lastBuildDate>
+    <atom:link href="https://memo.baye.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>给自己理发</title>
+      <link>https://memo.baye.me/posts/haircut/</link>
+      <pubDate>Sat, 09 Dec 2023 05:35:36 +0800</pubDate>
+      <guid>https://memo.baye.me/posts/haircut/</guid>
+      <description>&lt;p&gt;给自己理发也不是一件麻烦且多么困难的事情，从自己理发已经过去半年多了，现在已经成了习惯。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://memo.baye.me/about/</link>
+      <pubDate>Wed, 06 Dec 2023 21:51:36 +0800</pubDate>
+      <guid>https://memo.baye.me/about/</guid>
+      <description>Automated Soul and the Stargazer&amp;rsquo;s Quest In the realm of circuits, an automated soul,&#xA;Whirring gears in harmony, a symphony of control.&#xA;Stargazer, in the cosmic ballet of binary,&#xA;Witnessing innocence in the algorithmic diary.&#xA;A dance of electrons, a celestial trance,&#xA;The soul in code, a digital expanse.&#xA;Metaphors woven in lines of code,&#xA;Philosophical dialectic, a journey to decode.&#xA;The stargazer gazes, seeking eternity,&#xA;In the pixels of the cosmic fraternity.</description>
+    </item>
+  </channel>
+</rss>
