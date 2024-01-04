@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>USB3对2.4G WI-FI的干扰 - StarGazer</title><link rel="icon" type="image/png" href=https://sora1314.baye.me/squirrel2-512.jpg /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="
+tl;dr USB3对工作在2.4GHz的设备存在很强的干扰
+" />
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="USB3对2.4G WI-FI的干扰" />
+<meta property="og:description" content="
+tl;dr USB3对工作在2.4GHz的设备存在很强的干扰
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://memo.baye.me/posts/usb3_wifi_interference/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-01-04T16:09:23+08:00" />
+<meta property="article:modified_time" content="2024-01-04T16:09:23+08:00" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="USB3对2.4G WI-FI的干扰"/>
+<meta name="twitter:description" content="
+tl;dr USB3对工作在2.4GHz的设备存在很强的干扰
+"/>
+<script src="https://memo.baye.mejs/feather.min.js"></script>
+	
+	
+        <link href="https://memo.baye.me/css/fonts.11a1877508139eac0b5b4852ceb110c35641b3533321e66e39149e901ed5756b.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://memo.baye.me/css/main.d902908ac6e0fab67957de5db5aea1b6455b19ae2ca98eac4c95a4a0fdc02238.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://memo.baye.me/css/dark.c95c5dcf5f32f8b67bd36f7dab66680e068fce2b303087294114aabf7a7c080b.css"  disabled />
+	
+
+	
+	
+		<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		</script>
+	
+		
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [['$$','$$'], ['\[','\]']],
+				processEscapes: true,
+				processEnvironments: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				TeX: { equationNumbers: { autoNumber: "AMS" },
+						 extensions: ["AMSmath.js", "AMSsymbols.js"] }
+			}
+		});
+		</script>
+	
+
+	
+	
+	
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://memo.baye.me">StarGazer</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+		| <span id="dark-mode-toggle" onclick="toggleTheme()"></span>
+		<script src="https://memo.baye.mejs/themetoggle.js"></script>
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">USB3对2.4G WI-FI的干扰</h1>
+			<div class="meta">Posted on Jan 4, 2024</div>
+		</div>
+		
+
+		<section class="body">
+			<blockquote>
+<p>tl;dr USB3对工作在2.4GHz的设备存在很强的干扰</p>
+</blockquote>
+<p>最近将资料拷贝到移动硬盘，硬盘插在USB3口。起初一切正常，过了一会儿鼠标开始卡顿，几乎无法使用，我用的无线鼠标使用的2.4G Wi-Fi接收器同样插在USB2口上。</p>
+<p>起初以为是系统负载太高，打开资源管理器监控了一会儿，发现没有持续或者突发的高负载，又以为鼠标的电池没电了，换了电池依然不管用。最后凭借多年使用Windows系统的直觉，猜测可能是移动硬盘的原因，拔下硬盘果然好了，到这时候才突然想起来，USB3和蓝牙还是什么有干扰的作用，于是搜索了一番，确认USB3确实对蓝牙和Wi-Fi这些工作在2.4GHz的设备有很强的干扰。</p>
+<p>可能的解决方案是两个设备尽可能远离或者换用5GHz设备缓解，亦或者使用屏蔽等级更高的线材，这些都只是理论的方法，实际效果可能有限。</p>
+		</section>
+
+		<div class="post-tags">
+			
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"></div>
+  <div class="footer-info">
+    2024  © Kosette |  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+
+</div>
+    </body>
+</html>

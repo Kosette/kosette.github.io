@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Kosette</copyright>
-    <lastBuildDate>Sat, 09 Dec 2023 05:35:36 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jan 2024 16:09:23 +0800</lastBuildDate>
     <atom:link href="https://memo.baye.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>USB3对2.4G WI-FI的干扰</title>
+      <link>https://memo.baye.me/posts/usb3_wifi_interference/</link>
+      <pubDate>Thu, 04 Jan 2024 16:09:23 +0800</pubDate>
+      <guid>https://memo.baye.me/posts/usb3_wifi_interference/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;tl;dr USB3对工作在2.4GHz的设备存在很强的干扰&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
     <item>
       <title>给自己理发</title>
       <link>https://memo.baye.me/posts/haircut/</link>
