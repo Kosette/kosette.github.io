@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en-US"
+  dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<link rel="icon" type="image/ico" href="https:/kosette.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https:/kosette.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https:/kosette.github.io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https:/kosette.github.io/android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https:/kosette.github.io/apple-touch-icon.png">
+
+<meta name="description" content=""/>
+
+
+
+<title>
+    
+    yarn install 验证完整性失败 | StarGazer
+    
+</title>
+
+<link rel="canonical" href="https://kosette.github.io/posts/2025-03-25/"/>
+
+<meta property="og:url" content="https://kosette.github.io/posts/2025-03-25/">
+  <meta property="og:site_name" content="StarGazer">
+  <meta property="og:title" content="yarn install 验证完整性失败">
+  <meta property="og:description" content="integrity check failed when yarn install.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-25T20:23:09+08:00">
+    <meta property="article:modified_time" content="2025-03-25T20:23:09+08:00">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.c3508b50c3e7a9378d89eed55f2483624a9380d1dd1514495a21dec8c4860adc.css" media="all">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+</head>
+
+
+
+
+
+
+
+<body class="light">
+
+  <div class="content">
+    <header>
+      
+
+<div class="header">
+
+    
+
+    <h1 class="header-title">
+        <a href="https://kosette.github.io/">StarGazer</a>
+    </h1>
+
+    <div class="header-menu">
+        
+
+        
+        
+
+        <p
+            class="small ">
+            <a href="/" >
+                /home
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/posts" >
+                /posts
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/about" >
+                /about
+            </a>
+        </p>
+        
+        
+    </div>
+
+    
+
+</div>
+
+    </header>
+
+    <main class="main">
+      
+
+
+
+
+<div class="breadcrumbs"><a href="/">~</a><span class="breadcrumbs-separator">/</span><a href="/posts/">Posts</a><span class="breadcrumbs-separator">/</span>
+        <a href="/posts/2025-03-25/">yarn install 验证完整性失败</a></div>
+
+
+<div >
+  <article>
+    <header class="single-intro-container">
+        
+        <h1 class="single-title">yarn install 验证完整性失败</h1>
+        <p class="single-summary">integrity check failed when yarn install.</p>
+        
+        <div class="single-subsummary">
+          
+          <div>
+            
+            <p class="single-date">
+              <time datetime="2025-03-25T20:23:09&#43;08:00">March 25, 2025</time>
+              &nbsp; · &nbsp;1 min read
+            </p>
+          </div>
+        </div>
+        
+    </header>
+    
+    <div class="single-content">
+      <p>看到Next.js的<code>CVE-2025-29927</code>漏洞问题，想着更新一下nextchat的依赖，结果在编译Docker镜像是提示依赖完整性检查不通过，尝试了各种方法，依然不行，我很困惑。</p>
+<p>我在本地<code>yarn build</code>是完全正常的，<code>yarn.lock</code>文件也是<code>yarn install --update-checksum</code>自动生成的，怎么到了CI环境就不行呢？百思不得其解。</p>
+<p>最后灵机一动，yarn依赖有两种校验方法：sha1和sha512，既然自动生成的是sha512，那么换成sha1行不行呢？手动修改了一下，CI环境果然正常了。</p>
+<p>我有点崩溃，lock文件是yarn自动生成的，结果本地默认生成的sha512，而<code>yarn install</code>却默认检查sha1，我查找了一下资料，发现yarn在v2.x版本上迁移到了更加安全的sha512，但我本地和CI使用的都是yarn v1.22.22 版本，怎么会出现这种前后不一致的行为呢？</p>
+
+    </div>
+  </article>
+
+  
+
+  
+
+  
+  
+
+<div class="single-pagination">
+    <hr />
+
+    <div class="flexnowrap">
+
+        <div class="single-pagination-prev">
+            
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/posts/2025-03-19/">
+                        女性权利与劳动，社会地位
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+            <div class="single-pagination-container-next">
+                <div class="single-pagination-text">
+                    <a href="/posts/2025-04-10/">
+                        美国人的精神底色
+                    </a>
+                </div>
+                <div class="single-pagination-text">→</div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </main>
+  </div>
+
+  
+  
+
+
+
+
+
+    
+
+
+
+
+  <footer>
+    
+
+    
+    
+
+
+
+
+
+    
+
+
+
+
+    
+    <p>Powered by
+        <a href="https://gohugo.io/">Hugo</a>
+        and
+        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+    </p>
+    
+    
+    
+
+
+  </footer>
+
+  
+</body>
+
+<script src="/js/theme-switch.js"></script>
+<script defer src="/js/copy-code.js"></script>
+</html>
