@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on StarGazer</title>
+    <link>https://kosette.github.io/posts/</link>
+    <description>Recent content in Posts on StarGazer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Kosette</copyright>
+    <lastBuildDate>Thu, 09 May 2024 02:20:40 +0800</lastBuildDate>
+    <atom:link href="https://kosette.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>偶像的黄昏</title>
+      <link>https://kosette.github.io/posts/2024-05-09/</link>
+      <pubDate>Thu, 09 May 2024 02:20:40 +0800</pubDate>
+      <guid>https://kosette.github.io/posts/2024-05-09/</guid>
+      <description>自恋的人常照镜子</description>
+    </item>
+    <item>
+      <title>长吁短叹</title>
+      <link>https://kosette.github.io/posts/2024-05-02/</link>
+      <pubDate>Thu, 02 May 2024 20:43:40 +0800</pubDate>
+      <guid>https://kosette.github.io/posts/2024-05-02/</guid>
+      <description>人生无常，无有所住</description>
+    </item>
+    <item>
+      <title>系统性工程的自学难度</title>
+      <link>https://kosette.github.io/posts/2024-04-23/</link>
+      <pubDate>Tue, 23 Apr 2024 13:52:56 +0800</pubDate>
+      <guid>https://kosette.github.io/posts/2024-04-23/</guid>
+      <description>复杂性之难以驾驭</description>
+    </item>
+    <item>
+      <title>练习论</title>
+      <link>https://kosette.github.io/posts/2024-01-26/</link>
+      <pubDate>Fri, 26 Jan 2024 04:08:14 +0800</pubDate>
+      <guid>https://kosette.github.io/posts/2024-01-26/</guid>
+      <description>行为之社会化</description>
+    </item>
+    <item>
+      <title>其兴也勃焉，其亡也忽焉</title>
+      <link>https://kosette.github.io/posts/2024-01-21/</link>
+      <pubDate>Sun, 21 Jan 2024 03:20:43 +0800</pubDate>
+      <guid>https://kosette.github.io/posts/2024-01-21/</guid>
+      <description>……</description>
+    </item>
+    <item>
+      <title>聪明反被聪明误</title>
+      <link>https://kosette.github.io/posts/2024-01-04/</link>
+      <pubDate>Thu, 04 Jan 2024 20:18:30 +0800</pubDate>
+      <guid>https://kosette.github.io/posts/2024-01-04/</guid>
+      <description>性价比陷阱</description>
+    </item>
+    <item>
+      <title>USB3对2.4G WI-FI的干扰</title>
+      <link>https://kosette.github.io/posts/2024-01-04-1/</link>
+      <pubDate>Thu, 04 Jan 2024 16:09:23 +0800</pubDate>
+      <guid>https://kosette.github.io/posts/2024-01-04-1/</guid>
+      <description>usb3设备对2.4GHz产生的干扰</description>
+    </item>
+    <item>
+      <title>给自己理发</title>
+      <link>https://kosette.github.io/posts/2023-12-09/</link>
+      <pubDate>Sat, 09 Dec 2023 05:35:36 +0800</pubDate>
+      <guid>https://kosette.github.io/posts/2023-12-09/</guid>
+      <description>给自己理发……</description>
+    </item>
+  </channel>
+</rss>
