@@ -7,8 +7,64 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Kosette</copyright>
-    <lastBuildDate>Sun, 02 Jun 2024 07:42:03 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2024 00:28:12 +0800</lastBuildDate>
     <atom:link href="https://kosette.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>批判与创造</title>
+      <link>https://kosette.github.io/posts/2024-07-10/</link>
+      <pubDate>Wed, 10 Jul 2024 00:28:12 +0800</pubDate>
+      <guid>https://kosette.github.io/posts/2024-07-10/</guid>
+      <description>作为可能性的工具</description>
+    </item>
+    <item>
+      <title>胡思乱想（二）</title>
+      <link>https://kosette.github.io/posts/2024-06-29/</link>
+      <pubDate>Sat, 29 Jun 2024 18:42:44 +0800</pubDate>
+      <guid>https://kosette.github.io/posts/2024-06-29/</guid>
+      <description>晴，燥热</description>
+    </item>
+    <item>
+      <title>一个人只有在想不开的时候才回去写GitHub Action</title>
+      <link>https://kosette.github.io/posts/2024-06-23/</link>
+      <pubDate>Sun, 23 Jun 2024 20:18:23 +0800</pubDate>
+      <guid>https://kosette.github.io/posts/2024-06-23/</guid>
+      <description>可能和谈恋爱差不多</description>
+    </item>
+    <item>
+      <title>照相与翻相册</title>
+      <link>https://kosette.github.io/posts/2024-06-22/</link>
+      <pubDate>Sat, 22 Jun 2024 03:36:31 +0800</pubDate>
+      <guid>https://kosette.github.io/posts/2024-06-22/</guid>
+      <description>曾经翻看相册是一种重要的聚会活动</description>
+    </item>
+    <item>
+      <title>胡言乱语</title>
+      <link>https://kosette.github.io/posts/2024-06-19/</link>
+      <pubDate>Wed, 19 Jun 2024 02:15:03 +0800</pubDate>
+      <guid>https://kosette.github.io/posts/2024-06-19/</guid>
+      <description>……</description>
+    </item>
+    <item>
+      <title>音乐与性情</title>
+      <link>https://kosette.github.io/posts/2024-06-09/</link>
+      <pubDate>Sun, 09 Jun 2024 17:28:27 +0800</pubDate>
+      <guid>https://kosette.github.io/posts/2024-06-09/</guid>
+      <description>一曲高歌，孤枕难眠</description>
+    </item>
+    <item>
+      <title>媒体政治</title>
+      <link>https://kosette.github.io/posts/2024-06-08-1/</link>
+      <pubDate>Sat, 08 Jun 2024 09:21:02 +0800</pubDate>
+      <guid>https://kosette.github.io/posts/2024-06-08-1/</guid>
+      <description>新时代下的幼稚和狂热</description>
+    </item>
+    <item>
+      <title>先进的iOS系统</title>
+      <link>https://kosette.github.io/posts/2024-06-08/</link>
+      <pubDate>Sat, 08 Jun 2024 09:06:05 +0800</pubDate>
+      <guid>https://kosette.github.io/posts/2024-06-08/</guid>
+      <description>存储空间满了会怎样？</description>
+    </item>
     <item>
       <title>日有所思，夜有所梦</title>
       <link>https://kosette.github.io/posts/2024-06-02/</link>
@@ -84,7 +140,7 @@
       <link>https://kosette.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kosette.github.io/about/</guid>
-      <description>观星人凝视着星空，&#xA;是灵魂注视着机器，&#xA;机器注视着灵魂，&#xA;亦或者是机器注视着机器。</description>
+      <description>About me Have a nice day!&#xA;https://en.wikipedia.org/wiki/SpongeBob_SquarePants</description>
     </item>
   </channel>
 </rss>
