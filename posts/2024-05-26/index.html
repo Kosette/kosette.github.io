@@ -146,8 +146,7 @@
 
   <div class="single-content">
     <blockquote>
-<p>需要注意的是，使用<code>docker exec</code>进行的修改只是临时的，如果容器被删除那么更改就会消失，因此诸如<code>docker compose up -d</code>之类的会删除现有容器的操作都会破坏修改。</p>
-</blockquote>
+<p>需要注意的是，使用<code>docker exec</code>进行的修改只是临时的，如果容器被删除那么更改就会消失，因此诸如<code>docker compose up -d</code>之类的会删除现有容器的操作都会破坏修改。</p></blockquote>
 <p>官方的搭建教程已经比较傻瓜，基本上使用 docker compose 一把梭就能起服务。</p>
 <h3 id="redis">Redis</h3>
 <p>服务状态检查会提示使用 redis 获得更好的访问体验，如果很讨厌这个提醒，安装 redis 服务也很简单。在原有的 docker-compose.yml 中添加如下项目：</p>
